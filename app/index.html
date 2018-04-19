@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="app/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="app/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="app/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="app/fonts/stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="app/css/style.css"/>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <header class="head">
+    <img src="app/img/glance-btn.svg" class="btn_menu">
+ <nav class="nav">
+      <a href="#" class="nav__slogo-a">  <img src="app/img/SLogo.png" alt="logo" class="nav--slogo"></a>
+   <div class="nav__container">
+     <div class="nav__elem">
+     <div name = "about"  class="circle "></div>
+       <a href="#about"  class="nav__elem--a">About</a>
+     </div>
+     <div  class="nav__elem">
+        <div name ="services" class="circle "></div>
+          <a href="#services"  class="nav__elem--a">Services</a>
+     </div>
+     <div class="nav__elem">
+        <div name ="projects"  class="circle "></div>
+         <a href="#projects" class="nav__elem--a-grey">Projects</a>
+     </div>
+     <div class="nav__elem">
+        <div name ="contact"  class="circle "></div>
+          <a href="#contact"  class="nav__elem--a-grey">Contact</a>
+     </div>
+  </div>
+   </nav>
+   <img src="app/img/glance.svg" alt="logo" class="head__logo">
+   <h1 class="head__description">We make products glance. <span class = "head__description--span"> Digitally </span> </h1>
+   <div class="head__btn"><a href="" class="head__btn--item">Hire us</a></div>
+ </header>
+<section name = "about"  id = "about" class="about">
+  <h2 class="about__h1">Who we are</h2>
+  <p class="about__p">Glance is a digital agency specializing in mobile and web design and development. We make our client’s products shine both visually and technically and meet their business goals.</p>
+</section>
+<section name = "services"  id ="services" class="services">
+  <h2 class="services__h1">Services</h2>
+  <div class="services__container">
+    <div class="services__item">
+      <img src="app/img/group-11.svg" alt="Product Design" class="services__item--img">
+      <h2 class="services__item--h2">Product Design</h2>
+      <p class="services__item--p">Glance provides a full stack of product design services: from the extensive market and user research to UI/UX design to creating the memorable brand identity.</p>
+    </div>
+    <div id = "secondItem" class="services__item">
+      <img id ="img2" src="app/img/group-10.svg" alt="Mobile app development" class="services__item--img">
+      <h2 id ="item2" class="services__item--h2">Mobile app development</h2>
+      <p class="services__item--p">We specialize in developing native iOS and Android apps. We can start with an MVP or get to work on a full-scale project. </p>
+    </div>
+    <div class="services__item">
+      <img src="app/img/group-6.svg" alt="Web development" class="services__item--img">
+      <h2 class="services__item--h2">Web development</h2>
+      <p class="services__item--p">From effective promo pages to friendly online stores and other web-powered services. We build adaptive websites that work and look great on any device type. </p>
+    </div>
+  </div>
+</section>
+<section name = "projects"  id ="projects" class="projects">
+  <h2 class="projects__h1">Projects</h2>
+  <div class="projects__slider">
+    <div class="projects__slider--slide">
+      <h2 class="projects__h2">Project Name</h2>
+      <a href="#" class="projects__a">https://dribbble.com</a>
+      <p class="projects__description">We work with some of the world's leading creative agencies to develop e-commerce, portfolio and commercial websites that win awards, drive customer sales and generate a solid return on your investment. </p>
+      <div class="projects__slider--imgSize">
+        <img src="app/img/group-21@3x.png" alt="image" class="projects__slider--img">
+      </div>
+    </div>
+    <div class="projects__slider--slide">
+      <h2 class="projects__h2">Last Project</h2>
+      <a href="#" class="projects__a">https://dribbble1.com</a>
+      <p class="projects__description">We work with some of the world's leading creative agencies to develop e-commerce.</p>
+      <div class="projects__slider--imgSize">
+        <img src="app/img/img2.jpg" alt="image" class="projects__slider--img">
+      </div>
+    </div>
+    <div class="projects__slider--slide">
+      <h2 class="projects__h2">Some Project</h2>
+      <a href="#" class="projects__a">https://dribbble2.com</a>
+      <p class="projects__description">We work with some of the world's leading creative agencies to develop e-commerce, portfolio and commercial websites that win awards.</p>
+      <div class="projects__slider--imgSize">
+        <img  src="app/img/img3.jpg" alt="image" class="projects__slider--img">
+      </div>
+    </div>
+  </div>
+</section>
+<section name = "contact" id ="contact" class="contact">
+  <h2 class="contact__h1">Got some work for us?</h2>
+  <p class="contact__p">Write us. We always answer.</p>
+  <form action="#" id = "form">
+     <!-- <p class="contact__email__p">Enter your email</p> -->
+     <input type="email" class="contact__email" name="email" required placeholder="Enter your email">
+     <!-- <p class="contact__message__p">Write your message</p> -->
+     <textarea class="contact__message" name="message" placeholder="Write your message"></textarea>
+     <input type="submit" class="contact__submit" value = "Send" >
+   </form>
+</section>
+<footer class="contacts-us">
+    <h2 class="contacts-us__h1">Contact Us</h2>
+    <a href="" class="contacts-us__email">hey@glance.com</a>
+    <p class="contacts-us__phone"> +961 76 513 152</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<!-- <script type="text/javascript" src="slick/slick.js"></script>-->
+<script type="text/javascript" src="app/slick/slick.min.js"></script>
+<script type="text/javascript" src="app/js/main.js"></script>
+</body>
+</html>
