@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: 'build.js',
+    baseUrl: process.env.NODE_ENV === 'production'
+    ? '/SearchBooksVue/'
+    : '/'
   },
   module: {
     rules: [
