@@ -1,0 +1,8 @@
+nav.nav
+  .container
+    .nav__container
+      - var items = ["Макияж", "Ногти" , "волосы", "парфюмерия", "лицо", "тело и ванна", "мужчинам", "аксессуары", "health and care", "подарки" , "бренды"]
+        each item in items
+         a.nav__link(href="#")= item 
+    
+   

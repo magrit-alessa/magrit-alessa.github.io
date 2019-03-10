@@ -1,0 +1,18 @@
+.container{
+  width: 96%;
+  // max-width: 1442px;
+  margin: auto;
+  @media (max-width:768px){
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  // position: relative;
+}
+
+body{
+// width: 768px;
+// width: 100%;
+background-color: #f9f9f9;
+
+}

@@ -1,0 +1,39 @@
+footer.footer
+    
+  .container
+    .footer__container
+      .footer__sitemap
+        - var items = ["Макияж", "Ногти" , "волосы", "парфюмерия", "лицо", "тело и ванна", "мужчинам", "аксессуары", "health and care", "подарки" , "бренды"]
+          ul.footer__sitemap--ul
+          each item in items
+            li.footer__sitemap--li
+              a.footer__sitemap--a(href="#")= item
+            
+      .footer__services
+        -var services = ["О компании","Бренды","Оплата и доставка","Возврат и обмен","Шоурум","Контакты "]
+          ul.footer__services--ul
+          each service in services
+            li.footer__services--li
+              a.footer__services--a(href="#")= service
+            
+      
+      .footer__contacts
+        h6.footer__contacts--h +3 (095) 721-64-63 
+        p.footer__contacts--p (пн-пт - 10:00-19:00
+        p.footer__contacts--p сб-вс - 11:00-17:00)
+        .footer__contacts--call
+          a(href="#").footer__contacts--call-a Заказать звонок
+        
+      .footer__pay
+        h6.footer__pay--h Мы принимаем любой способ оплаты
+        img(src="../img/visa.png" alt="").footer__pay--img
+        img(src="../img/mc.png" alt="").footer__pay--img
+      .footer__clear  
+      .footer__up 
+      img(src="../img/footer-logo.png" alt="").footer__logo
+      p.footer__p 
+        |© 2013-2017 «Benefit» — интернет-магазин косметики email: 
+        a(href="#").footer__a zakaz@cezares.ru
+        |
+          
+      

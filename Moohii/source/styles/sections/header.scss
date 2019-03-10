@@ -1,0 +1,279 @@
+.header{
+  height: 116px;
+  border-bottom: 1px solid #222222;
+  position: relative;
+  @media (max-width:768px){
+    height: 64px;
+  }
+
+
+  &__top{
+    // width: 100%;
+    height: 32px;
+    background-color: #000;
+    color: #fff;
+    @media (max-width:768px){
+      display: none;
+
+    }
+
+
+    &--region{
+      width: 320px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 13px;
+      margin-left: -1%;
+      margin-top: -58px;
+      font-family: Verdana;
+      @media (max-width:768px){
+        display: none;
+
+      }
+    }
+    &--select{
+      width: 87px;
+      overflow: hidden;
+      background-color: #000;
+      color: #fff;
+      -webkit-appearance: none;
+      -moz--appearance: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding-top: 3px;
+      padding-left: 4px;
+      font-family: Verdana;
+      font-size: 13px;
+      background-image: url(../img/angle_down.png);
+      background-position: right center;
+      background-repeat: no-repeat;
+      &:focus{
+        width: auto;
+      }
+
+    }
+    &--label{
+      color: #929292;
+
+    }
+    &--case{
+      display: inline-block;
+      vertical-align: middle;
+      float: right;
+      margin: -30px 2.33% 0px 0px;
+
+
+
+      &-a{
+        color: #929292;
+        font-family: Verdana;
+        font-size: 13px;
+        margin-right:35%;
+        &:hover{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+
+  }
+  &__bottom{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 82px;
+    position: relative;
+    @media (max-width:768px){
+      height: 63px;
+    }
+    &--phone{
+      margin: 10px 0px 0px -1%;
+      display: inline-block;
+      vertical-align: middle;
+      @media (max-width:768px){
+        position: absolute;
+        left: 45%;
+
+      }
+      &-p{
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        @media (max-width:768px){
+          font-size: 15.4px;
+          letter-spacing: -0.3px;
+
+        }
+      }
+
+    }
+    &--schedule{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 12px 0 0 1.8%;
+      @media (max-width:768px){
+        display: none;
+      }
+      &-p{
+        font-family: Verdana;
+        font-size: 11px;
+        line-height: 0.5px;
+      }
+    }
+
+    &--call{
+      display: inline-block;
+      vertical-align: middle;
+      margin: -6px 0 0 4.3%;
+      @media (max-width:768px){
+       position: absolute;
+       left: 40%;
+       top: 73%;
+      }
+      &-a{
+        color: #222222;
+        font-size: 14px;
+        letter-spacing: 0.19px;
+        @media (max-width:768px){
+         font-size: 13px;
+         letter-spacing: -0.4px;
+         color: #fc2561;
+        }
+        &:hover{
+          color: #44992b;
+        }
+      }
+    }
+    &--menu{
+      background: url(../img/menu.png) no-repeat left center;
+      width: 28px;
+      height: 19px;
+      display: none;
+      @media (max-width:768px){
+        display: inline-block;
+        margin: 22px 0 0 3.3%;
+        cursor: pointer;
+      }
+
+    }
+    &--logo{
+      display: inline-block;
+      vertical-align: middle;
+      @media (max-width:768px){
+        position: absolute;
+        left: 3.5%;
+        top: 40%;
+
+      }
+      &-img{
+        margin: -8px 0px 0px 35%  ;
+        @media (max-width:768px){
+          height: 44px;
+          width: 193px;
+        }
+      }
+    }
+
+    &--case{
+      display: inline-block;
+      vertical-align: middle;
+      float: right;
+      position: relative;
+      margin: -10px -1% 0  0px;
+      @media (max-width:768px){
+        margin-right: -0.5%;
+        }
+
+      &-item{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+        &:nth-child(2){
+          display: none;
+        }
+        @media (max-width:768px){
+          margin: 20px 0 0 30px;
+          &:nth-child(2){
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          &:nth-child(3){
+            display: none;
+
+          }
+
+          &:nth-child(4){
+               margin-right: -20px;
+          }
+
+        }
+
+        &-img{
+          width: 43px;
+          height: 43px;
+          border-radius: 50%;
+          background-color: #fc2561;
+
+
+
+        }
+        &_a{
+          display: inline-block;
+          vertical-align: middle;
+          color: #a0a0a0;
+          font-family: Verdana;
+          font-size: 12px;
+          position: relative;
+          margin: -15px 0px 0px 9px;
+          @media (max-width:768px){
+           visibility: hidden;
+          }
+          &:hover{
+            text-decoration: none;
+            color:#fc2561;
+          }
+
+
+        }
+
+      }
+
+    }
+  }
+
+}
+
+#search{
+ background-color: #f9f9f9;
+ background-image: url(../img/search.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ margin: -2px 0% 2px 40%;
+
+}
+
+#compare{
+margin: -2px 0px 1px 25%;
+background-image: url(../img/lawyer.png);
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+#basket{
+margin: -2px 0px 1px 26%;
+background-image: url(../img/basket.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#favorites{
+margin: -2px 0px 1px 26%;
+background-image: url(../img/heart.png);
+background-position: center;
+background-repeat: no-repeat;
+
+}
